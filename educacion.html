@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hoja de vida</title>
+</head>
+<body>
+	<header>
+		<img id="logo" src="Logo/EJ_logo_compressed.svg" height="250px" alt="Logo">
+		<h1>Resumen Curricular</h1>
+		<h2>Datos Personales</h2>
+		<h3>Nombres:</h3>
+		<p>Elián Javier</p>
+		<h3>Apellidos:</h3>
+		<p>Tovar Daza</p>
+		<h3>Fecha y lugar de nacimiento:</h3>
+		<p>23 de mayo del 2000</p>
+		<nav>
+			<ul>
+				<li><a href="index.html">Información</a></li>
+				<li><a href="educacion.html">Educación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h2>Educación</h2>
+		<table border="2">
+			<theader>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</theader>
+			<tbody>
+				<tr>
+					<td>2017</td>
+					<td>LHEMI La Salle</td>
+					<td>Colegio</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>Next U</td>
+					<td>Universidad</td>
+					<td>Aún no</td>
+				</tr>
+				<tr>
+					<td>2016</td>
+					<td>Centro de Idiomas Asiáticos</td>
+					<td>Instituto</td>
+					<td>Sí</td>
+				</tr>
+			</tbody>
+		</table>
+		<h2>Agregar estudios</h2>
+		<form>
+			<label>Año: </label><input list="años">
+			<datalist id="años">
+				<option value="2015"></option>
+				<option value="2016"></option>
+				<option value="2017"></option>
+				<option value="2018"></option>
+				<option value="2019"></option>
+				<option value="2020"></option>
+				<option value="2021"></option>
+			</datalist>
+			<br/><br/>
+			<label>Institución: </label><input title="Se necesita una institución" type="text" placeholder="La Salle" required="">
+			<br/><br/>
+			<label style="vertical-align:top;">Lugar: </label><textarea cols="30" rows="10" placeholder="instituto..."></textarea>
+			<br/><br/>
+			<button>Enviar</button>
+		</form>
+	</section>
+	<footer>
+		<p>Correo Electrónico: skm.tovar@outlook.com</p>
+		<p>Contácto: +57 3107653781</p>
+		<p>Redes sociales</p>
+		<p>Facebook <br/> Instagram <br/> Google+ <br/> Pinterest</p>
+	</footer>
+</body>
+</html>
